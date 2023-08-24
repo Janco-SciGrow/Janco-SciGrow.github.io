@@ -1,6 +1,6 @@
 {
-    "name": "card",
-    "short_name": "card",
+    "name": "scigrow_business_card",
+    "short_name": "scigrow_business_card",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
