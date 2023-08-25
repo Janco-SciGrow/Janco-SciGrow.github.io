@@ -74637,11 +74637,10 @@ return A.Z($async$vC,r)}}
 A.Wj.prototype={
 $2(a,b){var s,r,q=null,p=b.b
 if(p>800)p=800
-s=p*0.8
-r=t.d
-r=A.a([A.v4(A.a([A.nd(q,A.v4(A.a([new A.KP(50,new A.z1("assets/logo.svg",q,q,B.zz,q),q,q),B.wU,B.RK,B.wU,B.RL],r),B.em,B.cl),B.u,B.he,q,q,q,B.ht,s),B.iX,A.nd(q,B.zY,B.u,B.BV,q,q,q,B.ht,s),B.iX,A.nd(q,A.v4(A.a([new A.q_("+27 723 861 815","Mobile",B.Ej,new A.Wg(),q),new A.q_("janco@scigrow.tech","Work",B.Eh,new A.Wh(),q),new A.q_("www.scigrow.tech","Company",B.El,new A.Wi(),q)],r),B.cY,B.cl),B.u,q,q,q,q,B.ht,s),B.iX,B.MG],r),B.cY,B.cl)],r)
-if(p>450){s=Math.max(s-250,250)
-r.push(A.IG(q,new A.EB(new A.wc(A.azT(q,q,new A.uC("assets/janco.jpeg",q,q)),150,150,q),q),q,q,s,q,30,q))}return A.yS(B.e7,r,B.a3,B.dR)},
+s=t.d
+s=A.a([A.v4(A.a([A.nd(q,A.v4(A.a([new A.KP(50,new A.z1("assets/logo.svg",q,q,B.zz,q),q,q),B.wU,B.RK,B.wU,B.RL],s),B.em,B.cl),B.u,B.he,q,q,q,B.ht,p),B.iX,A.nd(q,B.zY,B.u,B.BV,q,q,q,B.ht,p),B.iX,A.nd(q,A.v4(A.a([new A.q_("+27 723 861 815","Mobile",B.Ej,new A.Wg(),q),new A.q_("janco@scigrow.tech","Work",B.Eh,new A.Wh(),q),new A.q_("www.scigrow.tech","Company",B.El,new A.Wi(),q)],s),B.cY,B.cl),B.u,q,q,q,q,B.ht,p),B.iX,B.MG],s),B.cY,B.cl)],s)
+if(p>450){r=Math.max(p*0.8-250,250)
+s.push(A.IG(q,new A.EB(new A.wc(A.azT(q,q,new A.uC("assets/janco.jpeg",q,q)),150,150,q),q),q,q,r,q,30,q))}return A.yS(B.e7,s,B.a3,B.dR)},
 $S:428}
 A.Wg.prototype={
 $0(){var s=window
