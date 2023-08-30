@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <!--
     If you are serving your web app in a path other than the root, change the
@@ -27,33 +28,47 @@
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
+  <link rel="icon" type="image/png" href="favicon.png" />
 
   <title>scigrow_business_card</title>
   <link rel="manifest" href="manifest.json">
 
   <script>
     // Disable flutter web app install banner.
-     window.addEventListener('beforeinstallprompt', function (e) {
+    window.addEventListener('beforeinstallprompt', function (e) {
       e.preventDefault();
       return false;
     });
+
+    // if it's on index.html
+    if (window.sessionStorage.path) {
+      let path = window.sessionStorage.path; // gets the path saved on sessionStorage
+      window.history.pushState(null, null, path); // push it on url
+      window.sessionStorage.removeItem('path'); // removes from session
+
+    } else { // if it's on 404.html (path doens't exist)
+      let path = window.location.pathname; // get the path url
+      window.sessionStorage.path = path; // saves on sessionStorage
+      window.location.href = '/'; // go to index
+    }
+
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "4006782104";
+    const serviceWorkerVersion = "1831862893";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
 </head>
+
 <body>
   <script>
-    window.addEventListener('load', function(ev) {
+    window.addEventListener('load', function (ev) {
       // Download main.dart.js
       _flutter.loader.loadEntrypoint({
         serviceWorker: {
           serviceWorkerVersion: serviceWorkerVersion,
         },
-        onEntrypointLoaded: function(engineInitializer) {
-          engineInitializer.initializeEngine().then(function(appRunner) {
+        onEntrypointLoaded: function (engineInitializer) {
+          engineInitializer.initializeEngine().then(function (appRunner) {
             appRunner.runApp();
           });
         }
@@ -61,4 +76,5 @@
     });
   </script>
 </body>
+
 </html>
