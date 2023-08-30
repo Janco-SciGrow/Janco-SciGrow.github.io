@@ -74639,7 +74639,7 @@ $2(a,b){var s,r,q=null,p=b.b
 if(p>800)p=800
 s=t.d
 s=A.a([A.v4(A.a([A.nd(q,A.v4(A.a([new A.KP(50,new A.z1("assets/logo.svg",q,q,B.zz,q),q,q),B.wU,B.RK,B.wU,B.RL],s),B.em,B.cl),B.u,B.he,q,q,q,B.ht,p),B.iX,A.nd(q,B.zY,B.u,B.BV,q,q,q,B.ht,p),B.iX,A.nd(q,A.v4(A.a([new A.q_("+27 723 861 815","Mobile",B.Ej,new A.Wg(),q),new A.q_("janco@scigrow.tech","Work",B.Eh,new A.Wh(),q),new A.q_("www.scigrow.tech","Company",B.El,new A.Wi(),q)],s),B.cY,B.cl),B.u,q,q,q,q,B.ht,p),B.iX,B.MG],s),B.cY,B.cl)],s)
-if(p>=400){r=Math.max(p*0.8-250,250)
+if(p>=350){r=Math.max(p*0.8-100,250)
 s.push(A.IG(q,new A.EB(new A.wc(A.azT(q,q,new A.uC("assets/janco.jpeg",q,q)),150,150,q),q),q,q,r,q,30,q))}return A.yS(B.e7,s,B.a3,B.dR)},
 $S:428}
 A.Wg.prototype={
